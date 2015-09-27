@@ -1,2 +1,1 @@
-# photosite
-sandbox for photography website
+# Photography website sandbox
