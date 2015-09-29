@@ -1,6 +1,10 @@
+body {
+  font-family: 'Oswald', sans-serif;;
+}
+
 /* Salvattore styles */
 #grid[data-columns]::before {
-    content: '3 .column.size-1of3';
+    content: '4 .column.size-1of4';
 }
 
 /* These are the classes that are going to be applied: */
@@ -8,13 +12,21 @@
     float: left;
 }
 
-.size-1of3 {
-    width: 33.333%;
+.size-1of4 {
+    width: 25%;
+}
+
+.thumbnail.thumbnail-custom {
+    border: none;
+    padding: 1px;
+    margin-bottom: 1px;
 }
 
 /* Bootstrap styles */
-.navbar-header {
-    padding-bottom: 15px;
+
+.container-fluid.container-fluid-custom {
+    padding-right: 190px;
+    padding-left: 270px;
 }
 
 .navbar.navbar-default.navbar-custom {
@@ -24,7 +36,9 @@
 }
 
 .navbar-brand.navbar-brand-custom {
-    padding: 8px;
+    padding-top: 18px;
+    font-size: 25px;
+    color: black;
 }
 
 .nav.navbar-nav.navbar-right.navbar-right-custom {
